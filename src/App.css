@@ -8,3 +8,60 @@ body{
 .active{
     @apply text-blue-400
 }
+
+/* .h-50vh{
+    height: 50vh;
+} */
+
+.departmentTitle::before{
+    content: " ";
+    width: 70%;
+    height: 8px;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -35%;
+}
+
+.departmentTitle.teal::before{
+    content: " ";
+    width: 70%;
+    height: 8px;
+    border-bottom: 8px solid #115e59;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -35%;
+}
+
+@media screen and (max-width: 1000px){
+    .left-profile{
+        display: none!important;
+    }
+    .right-profile{
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .operation-text{
+        font-size: 16px!important;
+    }
+    .operation-title{
+        font-size: 16px!important;
+    }
+    .operation-icon{
+        display: none!important;
+    }
+    .operation-content{
+        width: 100%!important;
+    }
+    .docList a div{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .docList{
+        gap: 5rem !important;
+    }
+}
