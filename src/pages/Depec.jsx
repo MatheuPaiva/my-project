@@ -14,7 +14,7 @@ import { FaRegHandshake } from "react-icons/fa";
 const Depec = () => {
   return (
     <>
-      <DepartamentoCover name="DEPEC" desc="Departamento de Relações Interinstitucionais" img={bg}>
+      <DepartamentoCover name="DEPEC" desc="Departamento de Estágios e Cursos de Qualificação" img={bg}>
         <DepartamentoProfile name="DEPEC-SH" desc="O Departamento de Estágios e Cursos de Qualificação Profissional (DEPEC) do Campus Santa Helena da UTFPR desempenha um papel crucial na preparação dos alunos para o mercado de trabalho. O DEPEC facilita estágios, promove a qualificação profissional e mantém um relacionamento contínuo com os egressos da instituição, garantindo que os alunos obtenham a experiência prática necessária para suas futuras carreiras." leader="Leader" leaderDesc="Leader Desc" />
       </DepartamentoCover>
       <DepartamentoOperacional>
